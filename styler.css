@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+:root{
+    font-size: 16px;
+}
+
+html{
+    background-color: hsl(36, 100%, 99%);
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    
+}   
+
+
+
+
+
+header{
+    width: 100%;
+    margin-bottom: 2em;
+    
+}
+
+.navigation{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    
+    margin: 0 auto;
+
+
+}
+
+
+.links{
+    width: 40%;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.links div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links a{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.links a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+
+.second--sec{
+    width: 80%;
+    min-height: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.second--sec--left{
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+}
+
+
+.second-sec-left-part-def{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bright-future{
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 0.5em;
+    padding-left: 0;
+
+
+}
+
+
+.small-div{
+    width: 50%;
+    
+    padding: 1em;
+}
+
+
+.small-div p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem 2em;
+    color: hsl(236, 13%, 42%);
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.small-div button{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    padding: 13px 20px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 5px;
+}
+
+
+.small-div button:hover{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.sec-right-part{
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+
+.new{
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+}
+
+
+.tripal-con{
+    width: 100%;
+    border: 1px solid hsl(236, 13%, 42%);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+
+.tripal-con h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    padding: 12px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tripal-con h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tripal-con p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    padding: 10px 0;
+    color: #fff;
+}
+
+
+.tripal-con-1{
+    width: 100%;
+    
+    
+}
+
+.tripal-con-1 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    padding: 12px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tripal-con-1 h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+.tripal-con-1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    padding: 10px 0;
+    color: #fff;
+}
+
+
+.last-sec{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 85px;
+    
+}
+
+
+.last-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.last-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.last-con-defenation{
+    margin-left: 10px;
+    width: 70%;
+}
+
+
+.num{
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: hsl(233, 8%, 79%);
+}
+
+.def-header{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 5px 0;
+}
+
+
+.def-header:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+    transition: 0.5s;
+
+    
+
+}
+
+
+.def{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: hsl(233, 8%, 79%);
+    padding: 5px 0;
+}
+
+
+
+.open-menu , .close-menu{
+    display: none;
+}
+
+
+
+@media (max-width: 1000px) {
+
+
+    .navigation{
+        position: relative;
+    }
+
+    
+    .links{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 250px;
+        background-color: hsl(36, 100%, 99%);
+        background-color: hsl(36, 100%, 99%);
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        
+    }
+
+
+    .links div{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: start;
+    }
+
+    .links a{
+        padding: 15px 0;
+        padding-left: 15px;
+        font-size: 1.5rem;
+        color: hsl(240, 100%, 5%);
+    }
+
+
+    .open-menu{
+        display: block;
+        margin: 20px;
+        margin-right: 0;
+        background-color: hsl(36, 100%, 99%);
+        border: none;
+        padding: 5px;
+    }
+
+    .close-menu{
+        display: block;
+        align-self: flex-end;
+        margin: 20px;
+        background-color: hsl(36, 100%, 99%);
+        border: none;
+    }
+
+
+    .bright-future{
+        font-size: 2rem;
+    }
+
+    .last-con{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .last-image img{
+        width: 150px;
+    }
+
+
+
+    
+
+    
+}
+
+
+@media(max-width: 800px) {
+    .second--sec{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .second--sec img{
+        width: 100%;
+    }
+
+
+    .second--sec--left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-sec-left-part-def{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .second--sec--left{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .bright-future , .small-div , .second-sec-header-img, .sec-right-part{
+        width: 100%;
+    }
+
+    
+}
